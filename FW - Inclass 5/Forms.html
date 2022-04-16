@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="Style.css">
+    <title>Roxtar Creations</title>
+</head>
+<body>
+    <main class="contact">
+        <form>
+            <fieldset>
+                <legend>Details</legend>
+                <div class="field">
+                    <label for="Name">Name: </label>
+                    <input type="text" name="Name" id="Name">
+                </div>
+                <div class="field">
+                    <label for="Phone">Phone: </label>
+                    <input type="tel" name="Phone" placeholder="xxx-xxx-xxxx" id="Phone">
+                </div>
+                <div class="field">
+                    <label for="Email">Email: </label>
+                    <input type="text" name="Email" id="Email">
+                </div>
+                <div class="field">
+                    <label for="NumberOfPlayers">Number Of Players: </label>
+                    <select name="occasion" id="occasion">
+                        <option value="">-- Select Number of Players --</option>
+                        <option value="1">1(MIN)</option>
+                        <option value="1">2</option>
+                        <option value="1">3</option>
+                        <option value="1">4</option>
+                        <option value="1">5</option>
+                        <option value="1">6</option>
+                        <option value="1">7</option>
+                        <option value="1">8</option>
+                        <option value="1">9</option>
+                        <option value="1">10(MAX)</option>
+                    </select>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Requirments</legend>
+                <div class="field">
+                    <input type="checkbox" name="item1" id="item1" value="Yes">
+                    <label for="item1">Gears</label>
+                    <input type="checkbox" name="item2" id="item2" value="Yes">
+                    <label for="item2">100+ Refils</label>
+                    <input type="checkbox" name="item3" id="item3" value="Yes">
+                    <label for="item3">Illusionary Lights</label>
+                    <input type="checkbox" name="item4" id="item4" value="Yes">
+                    <label for="item4">Bazuka (2, 1 each size)</label>
+                    <label for="SpecRequ">Special Requirments: </label>
+                    <textarea name="SpecRequ" id="SpecRequ"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Party Requirments</legend>
+                <div class="PR">
+                    <p>
+                        Do you want special area for party!!!
+                    </p>                    <input type="radio" name="PR" id="PRYes">
+                    <label for="PRYes">Yes</label>
+                </div>
+                <div class="gift">
+                    <input type="radio" name="PR" id="PRNo">
+                    <label for="PR">No</label>
+                </div>
+            </fieldset>
+            <div class="submit">
+                <div>
+                    <input type="checkbox" name="terms" id="terms" value="Yes">
+                    <label for="terms">I Agree to the Terms and Conditions</label>
+                </div>
+                 <button type="submit">Submit</button>
+                <button type="reset">Clear Form</button>
+            </div>
+        </form>
+    </main>
+    </body>
+</html>
